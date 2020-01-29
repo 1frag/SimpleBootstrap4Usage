@@ -1,0 +1,25 @@
+.field {
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    display: inline-block;
+}
+
+.mybut {
+    width: 50%;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.custom-pref {
+    margin: 3px;
+    width: 400px;
+}
+
+.gr1 {background-color: #1c743049;}
+.gr2 {background-color: #005cbf49;}
+.gr3 {background-color: #6f42c149;}

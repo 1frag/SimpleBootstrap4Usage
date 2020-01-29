@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Awesome javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="single.js"></script>
+
+    <title>Web-Frontend12</title>
+</head>
+<body>
+<div>
+    <div>
+        <div class="container">
+            <form class="border m-1 p-3 custom-cont">
+                <div class="form-row col">
+                    <div class="col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                        <label>
+                            <input type="text" class="form-control-lg field" name="name" placeholder="Name">
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                        <label>
+                            <input type="number" class="form-control-lg field" name="price" placeholder="Price">
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                        <label>
+                            <textarea class="form-control-lg field" name="desc" placeholder="Description"></textarea>
+                        </label>
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                        <label>
+                            <input class="form-control-lg mybut" type="button" name="desc" value="Ok!"
+                                   onclick="ifClick()">
+                        </label>
+                    </div>
+                </div>
+            </form>
+
+            <div class="col-2">
+                <label>
+                    <select name="bywhat">
+                        <option selected disabled>Выберите тип сортировки</option>
+                        <option value="byname">По имени</option>
+                        <option value="bylendesc">По длине описания</option>
+                        <option value="bynumber">По порядку создания</option>
+                        <option value="byprice">По порядку создания</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="card mt-2">
+            <div class="card-body">
+                <div class="row collapse show" id="boxer">
+<!--                    <div class="card custom-pref">-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Name(#number)</h5>-->
+<!--                            <p class="card-text">Desc</p>-->
+<!--                            <p class="card-text">Price</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
